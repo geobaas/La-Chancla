@@ -7,7 +7,7 @@
 
 ---
 
-# 🚀 Proyecto: La Chancla
+#  Proyecto: La Chancla
 
 ---
 
