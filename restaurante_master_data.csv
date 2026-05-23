@@ -1,0 +1,394 @@
+﻿id_pedido,fecha_hora,dia_semana,hora,metodo_pago,tiempo_preparacion_min,calificacion_estrellas,id_item,nombre_platillo,categoria,cantidad_vendida,precio_venta_unitario,costo_produccion_unitario,subtotal_venta,subtotal_costo,subtotal_margen_ganancia,insumo_principal,alerta_inventario
+101,2026-05-01 12:18:00,Viernes,12,Transferencia,18,4,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+101,2026-05-01 12:18:00,Viernes,12,Transferencia,18,4,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+102,2026-05-01 14:41:00,Viernes,14,Transferencia,37,4,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+102,2026-05-01 14:41:00,Viernes,14,Transferencia,37,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+102,2026-05-01 14:41:00,Viernes,14,Transferencia,37,4,1,Taco de Cochinita,Platillos,3,35.0,12.5,105.0,37.5,67.5,Carne de Cerdo (Cochinita),Critico
+102,2026-05-01 14:41:00,Viernes,14,Transferencia,37,4,9,Orden de Guacamole,Complementos,4,55.0,15.0,220.0,60.0,160.0,Aguacate,Critico
+102,2026-05-01 14:41:00,Viernes,14,Transferencia,37,4,6,Agua de Horchata 1L,Bebidas,4,40.0,10.0,160.0,40.0,120.0,Limon,Critico
+103,2026-05-01 16:09:00,Viernes,16,Efectivo,13,5,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+104,2026-05-01 16:45:00,Viernes,16,Transferencia,20,5,5,Coca Cola 600ml,Bebidas,3,30.0,12.0,90.0,36.0,54.0,Coca Cola 600ml,Optimo
+104,2026-05-01 16:45:00,Viernes,16,Transferencia,20,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+104,2026-05-01 16:45:00,Viernes,16,Transferencia,20,5,4,Combo Godin (3 Tacos + Refresco),Combos,3,120.0,45.0,360.0,135.0,225.0,Tortillas de Maiz,Critico
+105,2026-05-01 20:07:00,Viernes,20,Efectivo,31,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+105,2026-05-01 20:07:00,Viernes,20,Efectivo,31,4,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+105,2026-05-01 20:07:00,Viernes,20,Efectivo,31,4,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+106,2026-05-01 20:40:00,Viernes,20,Efectivo,29,4,10,Cerveza Nacional,Bebidas,3,45.0,20.0,135.0,60.0,75.0,Cerveza Nacional,Critico
+106,2026-05-01 20:40:00,Viernes,20,Efectivo,29,4,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+106,2026-05-01 20:40:00,Viernes,20,Efectivo,29,4,9,Orden de Guacamole,Complementos,4,55.0,15.0,220.0,60.0,160.0,Aguacate,Critico
+107,2026-05-01 21:11:00,Viernes,21,Efectivo,18,4,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+108,2026-05-01 21:20:00,Viernes,21,Efectivo,25,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+108,2026-05-01 21:20:00,Viernes,21,Efectivo,25,4,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+109,2026-05-01 21:33:00,Viernes,21,Tarjeta,21,5,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+109,2026-05-01 21:33:00,Viernes,21,Tarjeta,21,5,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+109,2026-05-01 21:33:00,Viernes,21,Tarjeta,21,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+110,2026-05-01 21:38:00,Viernes,21,Efectivo,25,2,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+111,2026-05-01 23:41:00,Viernes,23,Tarjeta,21,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+111,2026-05-01 23:41:00,Viernes,23,Tarjeta,21,5,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+111,2026-05-01 23:41:00,Viernes,23,Tarjeta,21,5,6,Agua de Horchata 1L,Bebidas,3,40.0,10.0,120.0,30.0,90.0,Limon,Critico
+111,2026-05-01 23:41:00,Viernes,23,Tarjeta,21,5,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+112,2026-05-02 12:27:00,Sabado,12,Tarjeta,26,4,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+112,2026-05-02 12:27:00,Sabado,12,Tarjeta,26,4,9,Orden de Guacamole,Complementos,4,55.0,15.0,220.0,60.0,160.0,Aguacate,Critico
+112,2026-05-02 12:27:00,Sabado,12,Tarjeta,26,4,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+112,2026-05-02 12:27:00,Sabado,12,Tarjeta,26,4,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+112,2026-05-02 12:27:00,Sabado,12,Tarjeta,26,4,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+113,2026-05-02 13:31:00,Sabado,13,Tarjeta,18,5,1,Taco de Cochinita,Platillos,3,35.0,12.5,105.0,37.5,67.5,Carne de Cerdo (Cochinita),Critico
+113,2026-05-02 13:31:00,Sabado,13,Tarjeta,18,5,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+113,2026-05-02 13:31:00,Sabado,13,Tarjeta,18,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+114,2026-05-02 14:31:00,Sabado,14,Tarjeta,26,5,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+115,2026-05-02 14:48:00,Sabado,14,Tarjeta,27,4,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+115,2026-05-02 14:48:00,Sabado,14,Tarjeta,27,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+115,2026-05-02 14:48:00,Sabado,14,Tarjeta,27,4,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+116,2026-05-02 15:53:00,Sabado,15,Efectivo,31,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+116,2026-05-02 15:53:00,Sabado,15,Efectivo,31,4,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+116,2026-05-02 15:53:00,Sabado,15,Efectivo,31,4,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+117,2026-05-02 18:44:00,Sabado,18,Tarjeta,19,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+117,2026-05-02 18:44:00,Sabado,18,Tarjeta,19,5,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+118,2026-05-02 20:25:00,Sabado,20,Efectivo,19,4,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+118,2026-05-02 20:25:00,Sabado,20,Efectivo,19,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+119,2026-05-02 22:27:00,Sabado,22,Transferencia,15,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+119,2026-05-02 22:27:00,Sabado,22,Transferencia,15,5,4,Combo Godin (3 Tacos + Refresco),Combos,3,120.0,45.0,360.0,135.0,225.0,Tortillas de Maiz,Critico
+120,2026-05-03 12:04:00,Domingo,12,Tarjeta,17,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+120,2026-05-03 12:04:00,Domingo,12,Tarjeta,17,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+121,2026-05-03 12:23:00,Domingo,12,Efectivo,15,4,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+121,2026-05-03 12:23:00,Domingo,12,Efectivo,15,4,8,Flan Napolitano,Postres,3,45.0,12.0,135.0,36.0,99.0,Flan Base Repostera,Optimo
+122,2026-05-03 12:32:00,Domingo,12,Tarjeta,18,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+122,2026-05-03 12:32:00,Domingo,12,Tarjeta,18,5,7,Volcan de Queso y Asada,Complementos,3,50.0,18.0,150.0,54.0,96.0,Queso Asadero,Optimo
+122,2026-05-03 12:32:00,Domingo,12,Tarjeta,18,5,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+123,2026-05-03 12:34:00,Domingo,12,Efectivo,18,5,3,Torta de Cochinita,Platillos,2,60.0,25.0,120.0,50.0,70.0,Carne de Cerdo (Cochinita),Critico
+123,2026-05-03 12:34:00,Domingo,12,Efectivo,18,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+124,2026-05-03 12:51:00,Domingo,12,Tarjeta,21,5,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+124,2026-05-03 12:51:00,Domingo,12,Tarjeta,21,5,8,Flan Napolitano,Postres,2,45.0,12.0,90.0,24.0,66.0,Flan Base Repostera,Optimo
+124,2026-05-03 12:51:00,Domingo,12,Tarjeta,21,5,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+124,2026-05-03 12:51:00,Domingo,12,Tarjeta,21,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+125,2026-05-03 13:23:00,Domingo,13,Tarjeta,21,5,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+125,2026-05-03 13:23:00,Domingo,13,Tarjeta,21,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+125,2026-05-03 13:23:00,Domingo,13,Tarjeta,21,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+125,2026-05-03 13:23:00,Domingo,13,Tarjeta,21,5,7,Volcan de Queso y Asada,Complementos,3,50.0,18.0,150.0,54.0,96.0,Queso Asadero,Optimo
+126,2026-05-03 14:18:00,Domingo,14,Tarjeta,19,5,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+126,2026-05-03 14:18:00,Domingo,14,Tarjeta,19,5,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+127,2026-05-03 15:05:00,Domingo,15,Transferencia,32,4,4,Combo Godin (3 Tacos + Refresco),Combos,4,120.0,45.0,480.0,180.0,300.0,Tortillas de Maiz,Critico
+127,2026-05-03 15:05:00,Domingo,15,Transferencia,32,4,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+127,2026-05-03 15:05:00,Domingo,15,Transferencia,32,4,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+128,2026-05-03 21:40:00,Domingo,21,Tarjeta,28,5,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+128,2026-05-03 21:40:00,Domingo,21,Tarjeta,28,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+128,2026-05-03 21:40:00,Domingo,21,Tarjeta,28,5,9,Orden de Guacamole,Complementos,3,55.0,15.0,165.0,45.0,120.0,Aguacate,Critico
+128,2026-05-03 21:40:00,Domingo,21,Tarjeta,28,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+129,2026-05-03 22:16:00,Domingo,22,Transferencia,21,4,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+129,2026-05-03 22:16:00,Domingo,22,Transferencia,21,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+129,2026-05-03 22:16:00,Domingo,22,Transferencia,21,4,4,Combo Godin (3 Tacos + Refresco),Combos,3,120.0,45.0,360.0,135.0,225.0,Tortillas de Maiz,Critico
+129,2026-05-03 22:16:00,Domingo,22,Transferencia,21,4,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+130,2026-05-03 22:32:00,Domingo,22,Transferencia,12,5,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+131,2026-05-03 22:34:00,Domingo,22,Efectivo,16,5,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+132,2026-05-03 22:45:00,Domingo,22,Efectivo,15,5,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+133,2026-05-03 23:19:00,Domingo,23,Efectivo,19,5,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+133,2026-05-03 23:19:00,Domingo,23,Efectivo,19,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+133,2026-05-03 23:19:00,Domingo,23,Efectivo,19,5,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+134,2026-05-04 12:03:00,Lunes,12,Tarjeta,12,5,7,Volcan de Queso y Asada,Complementos,3,50.0,18.0,150.0,54.0,96.0,Queso Asadero,Optimo
+135,2026-05-04 14:22:00,Lunes,14,Efectivo,29,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+135,2026-05-04 14:22:00,Lunes,14,Efectivo,29,4,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+135,2026-05-04 14:22:00,Lunes,14,Efectivo,29,4,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+136,2026-05-04 20:19:00,Lunes,20,Transferencia,26,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+136,2026-05-04 20:19:00,Lunes,20,Transferencia,26,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+137,2026-05-04 21:49:00,Lunes,21,Efectivo,31,4,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+137,2026-05-04 21:49:00,Lunes,21,Efectivo,31,4,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+137,2026-05-04 21:49:00,Lunes,21,Efectivo,31,4,7,Volcan de Queso y Asada,Complementos,4,50.0,18.0,200.0,72.0,128.0,Queso Asadero,Optimo
+138,2026-05-05 12:07:00,Martes,12,Tarjeta,16,5,8,Flan Napolitano,Postres,2,45.0,12.0,90.0,24.0,66.0,Flan Base Repostera,Optimo
+139,2026-05-05 13:05:00,Martes,13,Tarjeta,15,5,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+140,2026-05-05 14:11:00,Martes,14,Transferencia,26,5,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+141,2026-05-05 14:31:00,Martes,14,Tarjeta,23,4,4,Combo Godin (3 Tacos + Refresco),Combos,3,120.0,45.0,360.0,135.0,225.0,Tortillas de Maiz,Critico
+141,2026-05-05 14:31:00,Martes,14,Tarjeta,23,4,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+142,2026-05-05 14:33:00,Martes,14,Efectivo,22,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+142,2026-05-05 14:33:00,Martes,14,Efectivo,22,5,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+143,2026-05-05 15:03:00,Martes,15,Efectivo,18,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+143,2026-05-05 15:03:00,Martes,15,Efectivo,18,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+144,2026-05-05 17:23:00,Martes,17,Tarjeta,17,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+144,2026-05-05 17:23:00,Martes,17,Tarjeta,17,5,10,Cerveza Nacional,Bebidas,3,45.0,20.0,135.0,60.0,75.0,Cerveza Nacional,Critico
+145,2026-05-05 18:53:00,Martes,18,Efectivo,12,5,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+146,2026-05-05 20:03:00,Martes,20,Efectivo,24,4,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+146,2026-05-05 20:03:00,Martes,20,Efectivo,24,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+146,2026-05-05 20:03:00,Martes,20,Efectivo,24,4,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+147,2026-05-05 20:48:00,Martes,20,Tarjeta,23,4,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+148,2026-05-05 21:13:00,Martes,21,Tarjeta,17,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+149,2026-05-05 21:48:00,Martes,21,Tarjeta,20,4,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+150,2026-05-05 22:55:00,Martes,22,Efectivo,15,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+150,2026-05-05 22:55:00,Martes,22,Efectivo,15,5,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+151,2026-05-06 14:54:00,Miercoles,14,Tarjeta,20,5,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+152,2026-05-06 14:59:00,Miercoles,14,Tarjeta,21,5,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+152,2026-05-06 14:59:00,Miercoles,14,Tarjeta,21,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+152,2026-05-06 14:59:00,Miercoles,14,Tarjeta,21,5,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+153,2026-05-06 15:44:00,Miercoles,15,Efectivo,20,5,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+154,2026-05-06 20:31:00,Miercoles,20,Tarjeta,21,5,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+155,2026-05-06 21:28:00,Miercoles,21,Tarjeta,25,4,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+155,2026-05-06 21:28:00,Miercoles,21,Tarjeta,25,4,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+156,2026-05-07 14:32:00,Jueves,14,Transferencia,24,4,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+156,2026-05-07 14:32:00,Jueves,14,Transferencia,24,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+157,2026-05-07 17:07:00,Jueves,17,Transferencia,15,5,10,Cerveza Nacional,Bebidas,4,45.0,20.0,180.0,80.0,100.0,Cerveza Nacional,Critico
+158,2026-05-07 17:23:00,Jueves,17,Efectivo,16,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+158,2026-05-07 17:23:00,Jueves,17,Efectivo,16,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+159,2026-05-07 17:27:00,Jueves,17,Tarjeta,22,4,6,Agua de Horchata 1L,Bebidas,3,40.0,10.0,120.0,30.0,90.0,Limon,Critico
+159,2026-05-07 17:27:00,Jueves,17,Tarjeta,22,4,5,Coca Cola 600ml,Bebidas,3,30.0,12.0,90.0,36.0,54.0,Coca Cola 600ml,Optimo
+159,2026-05-07 17:27:00,Jueves,17,Tarjeta,22,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+160,2026-05-07 17:32:00,Jueves,17,Efectivo,19,5,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+160,2026-05-07 17:32:00,Jueves,17,Efectivo,19,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+161,2026-05-07 20:14:00,Jueves,20,Tarjeta,15,5,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+162,2026-05-07 21:25:00,Jueves,21,Efectivo,22,5,7,Volcan de Queso y Asada,Complementos,3,50.0,18.0,150.0,54.0,96.0,Queso Asadero,Optimo
+163,2026-05-07 21:42:00,Jueves,21,Tarjeta,19,5,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+163,2026-05-07 21:42:00,Jueves,21,Tarjeta,19,5,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+164,2026-05-07 22:51:00,Jueves,22,Transferencia,15,4,7,Volcan de Queso y Asada,Complementos,4,50.0,18.0,200.0,72.0,128.0,Queso Asadero,Optimo
+165,2026-05-07 23:21:00,Jueves,23,Efectivo,14,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+166,2026-05-08 12:10:00,Viernes,12,Efectivo,16,5,8,Flan Napolitano,Postres,2,45.0,12.0,90.0,24.0,66.0,Flan Base Repostera,Optimo
+167,2026-05-08 14:34:00,Viernes,14,Efectivo,26,2,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+168,2026-05-08 14:37:00,Viernes,14,Transferencia,33,4,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+168,2026-05-08 14:37:00,Viernes,14,Transferencia,33,4,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+168,2026-05-08 14:37:00,Viernes,14,Transferencia,33,4,9,Orden de Guacamole,Complementos,3,55.0,15.0,165.0,45.0,120.0,Aguacate,Critico
+168,2026-05-08 14:37:00,Viernes,14,Transferencia,33,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+168,2026-05-08 14:37:00,Viernes,14,Transferencia,33,4,5,Coca Cola 600ml,Bebidas,3,30.0,12.0,90.0,36.0,54.0,Coca Cola 600ml,Optimo
+169,2026-05-08 14:47:00,Viernes,14,Efectivo,26,4,8,Flan Napolitano,Postres,3,45.0,12.0,135.0,36.0,99.0,Flan Base Repostera,Optimo
+169,2026-05-08 14:47:00,Viernes,14,Efectivo,26,4,5,Coca Cola 600ml,Bebidas,4,30.0,12.0,120.0,48.0,72.0,Coca Cola 600ml,Optimo
+169,2026-05-08 14:47:00,Viernes,14,Efectivo,26,4,6,Agua de Horchata 1L,Bebidas,4,40.0,10.0,160.0,40.0,120.0,Limon,Critico
+170,2026-05-08 15:17:00,Viernes,15,Efectivo,23,4,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+170,2026-05-08 15:17:00,Viernes,15,Efectivo,23,4,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+170,2026-05-08 15:17:00,Viernes,15,Efectivo,23,4,2,Taco de Asada,Platillos,3,40.0,15.0,120.0,45.0,75.0,Carne de Res (Asada),Optimo
+171,2026-05-08 15:57:00,Viernes,15,Efectivo,18,5,4,Combo Godin (3 Tacos + Refresco),Combos,4,120.0,45.0,480.0,180.0,300.0,Tortillas de Maiz,Critico
+172,2026-05-08 17:36:00,Viernes,17,Transferencia,14,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+173,2026-05-08 20:52:00,Viernes,20,Transferencia,29,3,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+173,2026-05-08 20:52:00,Viernes,20,Transferencia,29,3,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+174,2026-05-08 21:12:00,Viernes,21,Tarjeta,27,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+174,2026-05-08 21:12:00,Viernes,21,Tarjeta,27,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+174,2026-05-08 21:12:00,Viernes,21,Tarjeta,27,5,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+174,2026-05-08 21:12:00,Viernes,21,Tarjeta,27,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+175,2026-05-08 21:34:00,Viernes,21,Efectivo,18,4,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+175,2026-05-08 21:34:00,Viernes,21,Efectivo,18,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+176,2026-05-09 13:19:00,Sabado,13,Transferencia,18,4,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+176,2026-05-09 13:19:00,Sabado,13,Transferencia,18,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+176,2026-05-09 13:19:00,Sabado,13,Transferencia,18,4,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+177,2026-05-09 14:23:00,Sabado,14,Efectivo,29,4,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+177,2026-05-09 14:23:00,Sabado,14,Efectivo,29,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+177,2026-05-09 14:23:00,Sabado,14,Efectivo,29,4,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+178,2026-05-09 15:03:00,Sabado,15,Tarjeta,23,5,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+178,2026-05-09 15:03:00,Sabado,15,Tarjeta,23,5,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+178,2026-05-09 15:03:00,Sabado,15,Tarjeta,23,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+179,2026-05-09 15:17:00,Sabado,15,Tarjeta,27,4,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+179,2026-05-09 15:17:00,Sabado,15,Tarjeta,27,4,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+179,2026-05-09 15:17:00,Sabado,15,Tarjeta,27,4,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+179,2026-05-09 15:17:00,Sabado,15,Tarjeta,27,4,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+180,2026-05-09 17:34:00,Sabado,17,Tarjeta,16,5,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+180,2026-05-09 17:34:00,Sabado,17,Tarjeta,16,5,3,Torta de Cochinita,Platillos,3,60.0,25.0,180.0,75.0,105.0,Carne de Cerdo (Cochinita),Critico
+181,2026-05-09 19:53:00,Sabado,19,Tarjeta,17,4,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+181,2026-05-09 19:53:00,Sabado,19,Tarjeta,17,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+182,2026-05-09 21:14:00,Sabado,21,Transferencia,29,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+182,2026-05-09 21:14:00,Sabado,21,Transferencia,29,4,8,Flan Napolitano,Postres,3,45.0,12.0,135.0,36.0,99.0,Flan Base Repostera,Optimo
+183,2026-05-10 13:25:00,Domingo,13,Efectivo,19,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+183,2026-05-10 13:25:00,Domingo,13,Efectivo,19,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+183,2026-05-10 13:25:00,Domingo,13,Efectivo,19,5,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+184,2026-05-10 13:50:00,Domingo,13,Transferencia,22,4,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+184,2026-05-10 13:50:00,Domingo,13,Transferencia,22,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+184,2026-05-10 13:50:00,Domingo,13,Transferencia,22,4,5,Coca Cola 600ml,Bebidas,3,30.0,12.0,90.0,36.0,54.0,Coca Cola 600ml,Optimo
+184,2026-05-10 13:50:00,Domingo,13,Transferencia,22,4,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+185,2026-05-10 14:13:00,Domingo,14,Tarjeta,32,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+185,2026-05-10 14:13:00,Domingo,14,Tarjeta,32,4,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+185,2026-05-10 14:13:00,Domingo,14,Tarjeta,32,4,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+186,2026-05-10 14:49:00,Domingo,14,Tarjeta,27,4,9,Orden de Guacamole,Complementos,3,55.0,15.0,165.0,45.0,120.0,Aguacate,Critico
+186,2026-05-10 14:49:00,Domingo,14,Tarjeta,27,4,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+186,2026-05-10 14:49:00,Domingo,14,Tarjeta,27,4,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+186,2026-05-10 14:49:00,Domingo,14,Tarjeta,27,4,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+186,2026-05-10 14:49:00,Domingo,14,Tarjeta,27,4,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+187,2026-05-10 14:53:00,Domingo,14,Efectivo,19,5,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+187,2026-05-10 14:53:00,Domingo,14,Efectivo,19,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+188,2026-05-10 15:14:00,Domingo,15,Transferencia,32,3,2,Taco de Asada,Platillos,4,40.0,15.0,160.0,60.0,100.0,Carne de Res (Asada),Optimo
+188,2026-05-10 15:14:00,Domingo,15,Transferencia,32,3,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+188,2026-05-10 15:14:00,Domingo,15,Transferencia,32,3,4,Combo Godin (3 Tacos + Refresco),Combos,4,120.0,45.0,480.0,180.0,300.0,Tortillas de Maiz,Critico
+189,2026-05-10 20:50:00,Domingo,20,Efectivo,27,2,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+189,2026-05-10 20:50:00,Domingo,20,Efectivo,27,2,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+189,2026-05-10 20:50:00,Domingo,20,Efectivo,27,2,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+190,2026-05-11 14:12:00,Lunes,14,Transferencia,22,5,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+190,2026-05-11 14:12:00,Lunes,14,Transferencia,22,5,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+190,2026-05-11 14:12:00,Lunes,14,Transferencia,22,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+191,2026-05-11 14:24:00,Lunes,14,Tarjeta,22,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+191,2026-05-11 14:24:00,Lunes,14,Tarjeta,22,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+192,2026-05-11 15:32:00,Lunes,15,Tarjeta,26,3,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+192,2026-05-11 15:32:00,Lunes,15,Tarjeta,26,3,3,Torta de Cochinita,Platillos,3,60.0,25.0,180.0,75.0,105.0,Carne de Cerdo (Cochinita),Critico
+193,2026-05-11 20:28:00,Lunes,20,Efectivo,20,5,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+194,2026-05-11 22:37:00,Lunes,22,Tarjeta,18,4,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+194,2026-05-11 22:37:00,Lunes,22,Tarjeta,18,4,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+195,2026-05-11 23:16:00,Lunes,23,Tarjeta,15,5,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+195,2026-05-11 23:16:00,Lunes,23,Tarjeta,15,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+196,2026-05-12 13:32:00,Martes,13,Tarjeta,17,4,10,Cerveza Nacional,Bebidas,3,45.0,20.0,135.0,60.0,75.0,Cerveza Nacional,Critico
+196,2026-05-12 13:32:00,Martes,13,Tarjeta,17,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+197,2026-05-12 14:00:00,Martes,14,Efectivo,25,4,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+197,2026-05-12 14:00:00,Martes,14,Efectivo,25,4,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+197,2026-05-12 14:00:00,Martes,14,Efectivo,25,4,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+198,2026-05-12 15:01:00,Martes,15,Efectivo,24,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+198,2026-05-12 15:01:00,Martes,15,Efectivo,24,5,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+199,2026-05-12 16:21:00,Martes,16,Tarjeta,14,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+200,2026-05-12 20:19:00,Martes,20,Efectivo,25,4,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+200,2026-05-12 20:19:00,Martes,20,Efectivo,25,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+201,2026-05-12 21:52:00,Martes,21,Tarjeta,22,4,6,Agua de Horchata 1L,Bebidas,3,40.0,10.0,120.0,30.0,90.0,Limon,Critico
+201,2026-05-12 21:52:00,Martes,21,Tarjeta,22,4,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+202,2026-05-12 21:58:00,Martes,21,Transferencia,23,4,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+203,2026-05-13 14:40:00,Miercoles,14,Tarjeta,29,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+203,2026-05-13 14:40:00,Miercoles,14,Tarjeta,29,5,2,Taco de Asada,Platillos,3,40.0,15.0,120.0,45.0,75.0,Carne de Res (Asada),Optimo
+204,2026-05-13 15:56:00,Miercoles,15,Efectivo,23,4,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+204,2026-05-13 15:56:00,Miercoles,15,Efectivo,23,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+205,2026-05-13 20:30:00,Miercoles,20,Transferencia,23,5,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+205,2026-05-13 20:30:00,Miercoles,20,Transferencia,23,5,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+206,2026-05-14 13:50:00,Jueves,13,Tarjeta,15,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+206,2026-05-14 13:50:00,Jueves,13,Tarjeta,15,4,3,Torta de Cochinita,Platillos,2,60.0,25.0,120.0,50.0,70.0,Carne de Cerdo (Cochinita),Critico
+207,2026-05-14 14:11:00,Jueves,14,Tarjeta,18,5,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+208,2026-05-14 15:26:00,Jueves,15,Efectivo,19,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+208,2026-05-14 15:26:00,Jueves,15,Efectivo,19,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+209,2026-05-14 16:20:00,Jueves,16,Tarjeta,13,5,5,Coca Cola 600ml,Bebidas,3,30.0,12.0,90.0,36.0,54.0,Coca Cola 600ml,Optimo
+210,2026-05-14 22:31:00,Jueves,22,Transferencia,16,5,9,Orden de Guacamole,Complementos,3,55.0,15.0,165.0,45.0,120.0,Aguacate,Critico
+211,2026-05-14 22:35:00,Jueves,22,Transferencia,17,5,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+211,2026-05-14 22:35:00,Jueves,22,Transferencia,17,5,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+212,2026-05-15 12:04:00,Viernes,12,Transferencia,16,5,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+213,2026-05-15 13:26:00,Viernes,13,Tarjeta,21,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+213,2026-05-15 13:26:00,Viernes,13,Tarjeta,21,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+213,2026-05-15 13:26:00,Viernes,13,Tarjeta,21,5,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+214,2026-05-15 15:43:00,Viernes,15,Tarjeta,24,4,8,Flan Napolitano,Postres,2,45.0,12.0,90.0,24.0,66.0,Flan Base Repostera,Optimo
+215,2026-05-15 20:00:00,Viernes,20,Tarjeta,23,3,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+215,2026-05-15 20:00:00,Viernes,20,Tarjeta,23,3,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+215,2026-05-15 20:00:00,Viernes,20,Tarjeta,23,3,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+216,2026-05-15 20:40:00,Viernes,20,Tarjeta,20,5,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+216,2026-05-15 20:40:00,Viernes,20,Tarjeta,20,5,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+217,2026-05-16 12:08:00,Sabado,12,Efectivo,22,4,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+217,2026-05-16 12:08:00,Sabado,12,Efectivo,22,4,4,Combo Godin (3 Tacos + Refresco),Combos,4,120.0,45.0,480.0,180.0,300.0,Tortillas de Maiz,Critico
+217,2026-05-16 12:08:00,Sabado,12,Efectivo,22,4,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+218,2026-05-16 14:17:00,Sabado,14,Efectivo,33,3,6,Agua de Horchata 1L,Bebidas,3,40.0,10.0,120.0,30.0,90.0,Limon,Critico
+218,2026-05-16 14:17:00,Sabado,14,Efectivo,33,3,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+218,2026-05-16 14:17:00,Sabado,14,Efectivo,33,3,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+218,2026-05-16 14:17:00,Sabado,14,Efectivo,33,3,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+218,2026-05-16 14:17:00,Sabado,14,Efectivo,33,3,8,Flan Napolitano,Postres,2,45.0,12.0,90.0,24.0,66.0,Flan Base Repostera,Optimo
+219,2026-05-16 14:34:00,Sabado,14,Tarjeta,32,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+219,2026-05-16 14:34:00,Sabado,14,Tarjeta,32,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+219,2026-05-16 14:34:00,Sabado,14,Tarjeta,32,5,7,Volcan de Queso y Asada,Complementos,3,50.0,18.0,150.0,54.0,96.0,Queso Asadero,Optimo
+219,2026-05-16 14:34:00,Sabado,14,Tarjeta,32,5,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+220,2026-05-16 15:28:00,Sabado,15,Efectivo,27,4,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+220,2026-05-16 15:28:00,Sabado,15,Efectivo,27,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+220,2026-05-16 15:28:00,Sabado,15,Efectivo,27,4,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+221,2026-05-16 16:06:00,Sabado,16,Tarjeta,12,5,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+222,2026-05-16 20:17:00,Sabado,20,Tarjeta,22,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+222,2026-05-16 20:17:00,Sabado,20,Tarjeta,22,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+223,2026-05-16 20:58:00,Sabado,20,Efectivo,15,5,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+224,2026-05-16 21:07:00,Sabado,21,Tarjeta,31,5,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+224,2026-05-16 21:07:00,Sabado,21,Tarjeta,31,5,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+224,2026-05-16 21:07:00,Sabado,21,Tarjeta,31,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+224,2026-05-16 21:07:00,Sabado,21,Tarjeta,31,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+224,2026-05-16 21:07:00,Sabado,21,Tarjeta,31,5,6,Agua de Horchata 1L,Bebidas,2,40.0,10.0,80.0,20.0,60.0,Limon,Critico
+225,2026-05-16 21:11:00,Sabado,21,Efectivo,15,5,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+226,2026-05-16 21:20:00,Sabado,21,Tarjeta,31,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+226,2026-05-16 21:20:00,Sabado,21,Tarjeta,31,5,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+226,2026-05-16 21:20:00,Sabado,21,Tarjeta,31,5,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+226,2026-05-16 21:20:00,Sabado,21,Tarjeta,31,5,8,Flan Napolitano,Postres,2,45.0,12.0,90.0,24.0,66.0,Flan Base Repostera,Optimo
+227,2026-05-16 21:46:00,Sabado,21,Efectivo,20,4,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+227,2026-05-16 21:46:00,Sabado,21,Efectivo,20,4,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+228,2026-05-16 21:54:00,Sabado,21,Tarjeta,25,3,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+228,2026-05-16 21:54:00,Sabado,21,Tarjeta,25,3,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+228,2026-05-16 21:54:00,Sabado,21,Tarjeta,25,3,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+229,2026-05-16 22:01:00,Sabado,22,Tarjeta,26,3,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+229,2026-05-16 22:01:00,Sabado,22,Tarjeta,26,3,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+229,2026-05-16 22:01:00,Sabado,22,Tarjeta,26,3,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+229,2026-05-16 22:01:00,Sabado,22,Tarjeta,26,3,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+229,2026-05-16 22:01:00,Sabado,22,Tarjeta,26,3,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+230,2026-05-16 23:03:00,Sabado,23,Tarjeta,20,5,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+230,2026-05-16 23:03:00,Sabado,23,Tarjeta,20,5,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+230,2026-05-16 23:03:00,Sabado,23,Tarjeta,20,5,8,Flan Napolitano,Postres,3,45.0,12.0,135.0,36.0,99.0,Flan Base Repostera,Optimo
+231,2026-05-16 23:36:00,Sabado,23,Efectivo,21,5,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+231,2026-05-16 23:36:00,Sabado,23,Efectivo,21,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+231,2026-05-16 23:36:00,Sabado,23,Efectivo,21,5,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+232,2026-05-17 15:31:00,Domingo,15,Tarjeta,26,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+233,2026-05-17 16:28:00,Domingo,16,Efectivo,12,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+234,2026-05-17 16:32:00,Domingo,16,Tarjeta,21,5,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+234,2026-05-17 16:32:00,Domingo,16,Tarjeta,21,5,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+234,2026-05-17 16:32:00,Domingo,16,Tarjeta,21,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+235,2026-05-17 18:27:00,Domingo,18,Tarjeta,17,5,2,Taco de Asada,Platillos,3,40.0,15.0,120.0,45.0,75.0,Carne de Res (Asada),Optimo
+235,2026-05-17 18:27:00,Domingo,18,Tarjeta,17,5,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+236,2026-05-17 21:52:00,Domingo,21,Tarjeta,21,5,3,Torta de Cochinita,Platillos,2,60.0,25.0,120.0,50.0,70.0,Carne de Cerdo (Cochinita),Critico
+237,2026-05-17 22:01:00,Domingo,22,Efectivo,21,4,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+237,2026-05-17 22:01:00,Domingo,22,Efectivo,21,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+237,2026-05-17 22:01:00,Domingo,22,Efectivo,21,4,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+238,2026-05-17 22:57:00,Domingo,22,Efectivo,25,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+238,2026-05-17 22:57:00,Domingo,22,Efectivo,25,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+238,2026-05-17 22:57:00,Domingo,22,Efectivo,25,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+238,2026-05-17 22:57:00,Domingo,22,Efectivo,25,5,8,Flan Napolitano,Postres,3,45.0,12.0,135.0,36.0,99.0,Flan Base Repostera,Optimo
+238,2026-05-17 22:57:00,Domingo,22,Efectivo,25,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+239,2026-05-18 13:53:00,Lunes,13,Efectivo,19,5,3,Torta de Cochinita,Platillos,2,60.0,25.0,120.0,50.0,70.0,Carne de Cerdo (Cochinita),Critico
+239,2026-05-18 13:53:00,Lunes,13,Efectivo,19,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+240,2026-05-18 14:22:00,Lunes,14,Tarjeta,19,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+240,2026-05-18 14:22:00,Lunes,14,Tarjeta,19,5,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+241,2026-05-18 16:03:00,Lunes,16,Efectivo,15,5,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+241,2026-05-18 16:03:00,Lunes,16,Efectivo,15,5,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+242,2026-05-18 18:29:00,Lunes,18,Tarjeta,15,4,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+243,2026-05-18 18:30:00,Lunes,18,Efectivo,15,5,9,Orden de Guacamole,Complementos,3,55.0,15.0,165.0,45.0,120.0,Aguacate,Critico
+244,2026-05-18 18:34:00,Lunes,18,Tarjeta,17,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+244,2026-05-18 18:34:00,Lunes,18,Tarjeta,17,5,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+245,2026-05-18 20:33:00,Lunes,20,Tarjeta,25,4,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+245,2026-05-18 20:33:00,Lunes,20,Tarjeta,25,4,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+246,2026-05-19 12:55:00,Martes,12,Transferencia,17,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+246,2026-05-19 12:55:00,Martes,12,Transferencia,17,5,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+247,2026-05-19 14:25:00,Martes,14,Efectivo,23,5,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+247,2026-05-19 14:25:00,Martes,14,Efectivo,23,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+248,2026-05-19 15:20:00,Martes,15,Efectivo,31,3,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+248,2026-05-19 15:20:00,Martes,15,Efectivo,31,3,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+248,2026-05-19 15:20:00,Martes,15,Efectivo,31,3,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+249,2026-05-19 16:26:00,Martes,16,Transferencia,17,5,6,Agua de Horchata 1L,Bebidas,3,40.0,10.0,120.0,30.0,90.0,Limon,Critico
+249,2026-05-19 16:26:00,Martes,16,Transferencia,17,5,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+250,2026-05-19 19:10:00,Martes,19,Efectivo,16,4,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+251,2026-05-19 19:36:00,Martes,19,Tarjeta,12,5,5,Coca Cola 600ml,Bebidas,4,30.0,12.0,120.0,48.0,72.0,Coca Cola 600ml,Optimo
+252,2026-05-19 20:54:00,Martes,20,Tarjeta,24,4,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+252,2026-05-19 20:54:00,Martes,20,Tarjeta,24,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+253,2026-05-19 21:15:00,Martes,21,Tarjeta,23,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+254,2026-05-19 21:27:00,Martes,21,Efectivo,23,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+254,2026-05-19 21:27:00,Martes,21,Efectivo,23,5,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+254,2026-05-19 21:27:00,Martes,21,Efectivo,23,5,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+255,2026-05-19 21:29:00,Martes,21,Transferencia,29,5,4,Combo Godin (3 Tacos + Refresco),Combos,2,120.0,45.0,240.0,90.0,150.0,Tortillas de Maiz,Critico
+255,2026-05-19 21:29:00,Martes,21,Transferencia,29,5,10,Cerveza Nacional,Bebidas,2,45.0,20.0,90.0,40.0,50.0,Cerveza Nacional,Critico
+255,2026-05-19 21:29:00,Martes,21,Transferencia,29,5,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+256,2026-05-19 22:55:00,Martes,22,Tarjeta,15,4,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+256,2026-05-19 22:55:00,Martes,22,Tarjeta,15,4,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+257,2026-05-20 14:36:00,Miercoles,14,Efectivo,20,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+258,2026-05-20 18:57:00,Miercoles,18,Tarjeta,15,4,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+259,2026-05-20 19:48:00,Miercoles,19,Tarjeta,18,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+259,2026-05-20 19:48:00,Miercoles,19,Tarjeta,18,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+260,2026-05-20 20:38:00,Miercoles,20,Efectivo,18,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+261,2026-05-20 20:49:00,Miercoles,20,Efectivo,25,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+261,2026-05-20 20:49:00,Miercoles,20,Efectivo,25,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+262,2026-05-20 21:34:00,Miercoles,21,Tarjeta,15,5,6,Agua de Horchata 1L,Bebidas,1,40.0,10.0,40.0,10.0,30.0,Limon,Critico
+263,2026-05-21 12:02:00,Jueves,12,Efectivo,16,5,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+264,2026-05-21 12:11:00,Jueves,12,Transferencia,14,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+265,2026-05-21 12:57:00,Jueves,12,Efectivo,19,5,2,Taco de Asada,Platillos,2,40.0,15.0,80.0,30.0,50.0,Carne de Res (Asada),Optimo
+265,2026-05-21 12:57:00,Jueves,12,Efectivo,19,5,6,Agua de Horchata 1L,Bebidas,4,40.0,10.0,160.0,40.0,120.0,Limon,Critico
+266,2026-05-21 14:09:00,Jueves,14,Efectivo,21,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+266,2026-05-21 14:09:00,Jueves,14,Efectivo,21,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+267,2026-05-21 14:39:00,Jueves,14,Tarjeta,23,5,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
+268,2026-05-21 15:27:00,Jueves,15,Transferencia,20,4,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+269,2026-05-21 17:11:00,Jueves,17,Transferencia,19,5,9,Orden de Guacamole,Complementos,2,55.0,15.0,110.0,30.0,80.0,Aguacate,Critico
+269,2026-05-21 17:11:00,Jueves,17,Transferencia,19,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+270,2026-05-21 20:43:00,Jueves,20,Transferencia,21,5,7,Volcan de Queso y Asada,Complementos,2,50.0,18.0,100.0,36.0,64.0,Queso Asadero,Optimo
+271,2026-05-21 22:44:00,Jueves,22,Tarjeta,12,4,5,Coca Cola 600ml,Bebidas,1,30.0,12.0,30.0,12.0,18.0,Coca Cola 600ml,Optimo
+272,2026-05-22 14:39:00,Viernes,14,Tarjeta,30,4,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+272,2026-05-22 14:39:00,Viernes,14,Tarjeta,30,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+272,2026-05-22 14:39:00,Viernes,14,Tarjeta,30,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+273,2026-05-22 17:51:00,Viernes,17,Transferencia,18,4,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+273,2026-05-22 17:51:00,Viernes,17,Transferencia,18,4,3,Torta de Cochinita,Platillos,4,60.0,25.0,240.0,100.0,140.0,Carne de Cerdo (Cochinita),Critico
+274,2026-05-22 19:47:00,Viernes,19,Efectivo,22,5,5,Coca Cola 600ml,Bebidas,3,30.0,12.0,90.0,36.0,54.0,Coca Cola 600ml,Optimo
+274,2026-05-22 19:47:00,Viernes,19,Efectivo,22,5,1,Taco de Cochinita,Platillos,1,35.0,12.5,35.0,12.5,22.5,Carne de Cerdo (Cochinita),Critico
+274,2026-05-22 19:47:00,Viernes,19,Efectivo,22,5,10,Cerveza Nacional,Bebidas,4,45.0,20.0,180.0,80.0,100.0,Cerveza Nacional,Critico
+275,2026-05-22 19:59:00,Viernes,19,Tarjeta,17,5,10,Cerveza Nacional,Bebidas,1,45.0,20.0,45.0,20.0,25.0,Cerveza Nacional,Critico
+275,2026-05-22 19:59:00,Viernes,19,Tarjeta,17,5,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+276,2026-05-22 20:24:00,Viernes,20,Efectivo,27,4,4,Combo Godin (3 Tacos + Refresco),Combos,1,120.0,45.0,120.0,45.0,75.0,Tortillas de Maiz,Critico
+276,2026-05-22 20:24:00,Viernes,20,Efectivo,27,4,3,Torta de Cochinita,Platillos,1,60.0,25.0,60.0,25.0,35.0,Carne de Cerdo (Cochinita),Critico
+276,2026-05-22 20:24:00,Viernes,20,Efectivo,27,4,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+277,2026-05-22 21:24:00,Viernes,21,Tarjeta,19,5,2,Taco de Asada,Platillos,4,40.0,15.0,160.0,60.0,100.0,Carne de Res (Asada),Optimo
+277,2026-05-22 21:24:00,Viernes,21,Tarjeta,19,5,10,Cerveza Nacional,Bebidas,3,45.0,20.0,135.0,60.0,75.0,Cerveza Nacional,Critico
+278,2026-05-22 21:27:00,Viernes,21,Efectivo,25,4,10,Cerveza Nacional,Bebidas,4,45.0,20.0,180.0,80.0,100.0,Cerveza Nacional,Critico
+278,2026-05-22 21:27:00,Viernes,21,Efectivo,25,4,7,Volcan de Queso y Asada,Complementos,3,50.0,18.0,150.0,54.0,96.0,Queso Asadero,Optimo
+278,2026-05-22 21:27:00,Viernes,21,Efectivo,25,4,1,Taco de Cochinita,Platillos,2,35.0,12.5,70.0,25.0,45.0,Carne de Cerdo (Cochinita),Critico
+279,2026-05-22 22:51:00,Viernes,22,Efectivo,19,5,7,Volcan de Queso y Asada,Complementos,1,50.0,18.0,50.0,18.0,32.0,Queso Asadero,Optimo
+279,2026-05-22 22:51:00,Viernes,22,Efectivo,19,5,2,Taco de Asada,Platillos,4,40.0,15.0,160.0,60.0,100.0,Carne de Res (Asada),Optimo
+279,2026-05-22 22:51:00,Viernes,22,Efectivo,19,5,8,Flan Napolitano,Postres,1,45.0,12.0,45.0,12.0,33.0,Flan Base Repostera,Optimo
+280,2026-05-22 23:24:00,Viernes,23,Transferencia,22,5,2,Taco de Asada,Platillos,1,40.0,15.0,40.0,15.0,25.0,Carne de Res (Asada),Optimo
+280,2026-05-22 23:24:00,Viernes,23,Transferencia,22,5,9,Orden de Guacamole,Complementos,1,55.0,15.0,55.0,15.0,40.0,Aguacate,Critico
+280,2026-05-22 23:24:00,Viernes,23,Transferencia,22,5,8,Flan Napolitano,Postres,2,45.0,12.0,90.0,24.0,66.0,Flan Base Repostera,Optimo
+280,2026-05-22 23:24:00,Viernes,23,Transferencia,22,5,5,Coca Cola 600ml,Bebidas,2,30.0,12.0,60.0,24.0,36.0,Coca Cola 600ml,Optimo
