@@ -402,3 +402,98 @@ body {
   text-align: center;
   font-size: 1.5rem;
 }
+/* ==========================================
+   ESTILOS PARA DASHBOARDS (REPORTES BI)
+   ========================================== */
+.bi-container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.bi-container h3 {
+  color: #bf360c;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+.bi-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ffe0b2;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.bi-tabs button {
+  background: #fffaf2;
+  border: 1px solid #ffe0b2;
+  color: #795548;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.bi-tabs button:hover {
+  background: #ffecb3;
+  color: #d84315;
+}
+
+.bi-tabs button.bi-tab-active {
+  background: #d84315;
+  color: white;
+  border-color: #d84315;
+  box-shadow: 0 4px 10px rgba(216, 67, 21, 0.3);
+}
+
+.dash-title {
+  font-size: 1.4rem;
+  color: #4e342e;
+  margin-bottom: 20px;
+  border-left: 5px solid #fbc02d;
+  padding-left: 10px;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.chart-card {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.chart-card h5 {
+  text-align: center;
+  color: #5d4037;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.chart-span-2 {
+  grid-column: span 2;
+}
+
+.placeholder-dash {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fafafa;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  color: #888;
+}
+
+.placeholder-dash .icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 15px;
+}
