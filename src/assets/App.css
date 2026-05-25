@@ -312,3 +312,93 @@ body {
 .crud-table th { color: #d84315; font-weight: 800; background: #fffaf2; }
 .btn-edit { background: #fbc02d; color: #3e2723; border: none; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-weight: bold; margin-right: 5px; }
 .btn-delete { background: #e53935; color: white; border: none; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-weight: bold; }
+/* ==========================================
+   DASHBOARD GERENCIA (MENÚ DE INICIO Y BOTONES)
+   ========================================== */
+.management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.btn-back {
+  background-color: #ffffff;
+  color: #d84315;
+  border: 2px solid #ffe0b2;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #fff3e0;
+  border-color: #fb8c00;
+  transform: translateX(-3px);
+}
+
+.greeting-text {
+  text-align: center;
+  color: #bf360c;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 35px;
+  margin-top: 10px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 10px 20px;
+}
+
+.dash-action-btn {
+  background: #ffffff;
+  border: 2px solid #ffe0b2;
+  border-radius: 20px;
+  padding: 40px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.dash-action-btn .icon {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.dash-action-btn h3 {
+  color: #5d4037;
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 800;
+}
+
+.dash-action-btn p {
+  color: #8d6e63;
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.dash-action-btn:hover {
+  background: #fffaf2;
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(216, 67, 21, 0.15);
+  border-color: #fbc02d;
+}
+
+.form-container h3 {
+  color: #d84315;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 1.5rem;
+}

@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { db, auth } from './firebase';
 import { collection, onSnapshot, doc, setDoc, getDoc } from 'firebase/firestore';
 import { onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, sendPasswordResetEmail } from 'firebase/auth';
-import './assets/App.css'; // Esto conecta el diseño
+import './assets/App.css'; // Conexión con los estilos dentro de assets
 
-// Aquí importamos tus archivos de la carpeta components
+// Importación de componentes individuales de la carpeta components
 import VistaCliente from './components/VistaCliente';
 import VistaMostrador from './components/VistaMostrador';
 import VistaGerencia from './components/VistaGerencia';
@@ -20,9 +20,9 @@ function App() {
   const [password, setPassword] = useState('');
   const [usernameEmpleado, setUsernameEmpleado] = useState('');
 
-  // Cargar datos de Firebase
+  // 1. Cargar datos de la colección menu_items en tiempo real
   useEffect(() => {
-    const q = collection(db, "menu");
+    const q = collection(db, "menu_items"); 
     const unsubscribe = onSnapshot(q, (snapshot) => {
       const docs = [];
       snapshot.forEach((docItem) => docs.push({ ...docItem.data(), id: docItem.id }));
@@ -31,15 +31,16 @@ function App() {
     return () => unsubscribe();
   }, []);
 
-  // Manejar sesión
+  // 2. Manejo de estados de sesión y lectura limpia de roles de usuario
   useEffect(() => {
     const unsubscribeAuth = onAuthStateChanged(auth, async (user) => {
       setUsuarioActual(user);
       if (user) {
         const docRef = doc(db, "usuarios", user.uid);
         const docSnap = await getDoc(docRef);
-        if (docSnap.exists()) {
-          setRolActual(docSnap.data().rol); 
+        if (docSnap.exists() && docSnap.data().rol) {
+          // .trim().toLowerCase() evita fallas por espacios vacíos o mayúsculas en la base de datos
+          setRolActual(docSnap.data().rol.trim().toLowerCase()); 
         } else {
           await setDoc(docRef, { email: user.email, rol: 'cliente' });
           setRolActual('cliente');
@@ -68,7 +69,7 @@ function App() {
       setMostrarLogin(false);
       setEmail(''); setPassword(''); setUsernameEmpleado('');
     } catch (error) {
-      alert("Error: Verifica tus credenciales.");
+      alert("Error: Verifica tus credenciales de acceso.");
     }
   };
 
@@ -79,7 +80,7 @@ function App() {
     }
     try {
       await sendPasswordResetEmail(auth, email);
-      alert("Enlace enviado a tu correo.");
+      alert("Enlace de recuperación enviado a tu correo.");
     } catch (error) {
       alert("Error: " + error.message);
     }
@@ -89,7 +90,7 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* BARRA SUPERIOR */}
+      {/* BARRA SUPERIOR DE LOGEO */}
       <div className="auth-top-bar">
         {usuarioActual ? (
           <div className="user-info">
@@ -135,10 +136,10 @@ function App() {
         </div>
       )}
 
-      {/* RENDERIZADO DE LOS COMPONENTES */}
+      {/* COMPONENTES ROUTING SEGÚN EL ROL DE USUARIO */}
       {rolActual === 'cliente' && <VistaCliente platillos={platillos} />}
       {rolActual === 'mostrador' && <VistaMostrador platillos={platillos} />}
-      {rolActual === 'gerencia' && <VistaGerencia platillos={platillos} />}
+      {rolActual === 'administrador' && <VistaGerencia platillos={platillos} />}
     </div>
   );
 }

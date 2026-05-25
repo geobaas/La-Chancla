@@ -1,25 +1,28 @@
 import React, { useState } from 'react';
-// IMPORTANTE: Los dos puntos (../) le dicen que salga de la carpeta components y entre a assets
-import logo from '../assets/logo.png'; 
+import logo from '../assets/logo.png'; // Ruta correcta saliendo a assets
 
 export default function VistaCliente({ platillos }) {
   const [categoriaSel, setCategoriaSel] = useState('Todos');
-  const categoriasOficiales = ['Todos', 'Platillos Normales', 'Combos', 'Bebidas', 'Complementos'];
+  
+  // Categorías oficiales basadas en el diseño de tu base de datos
+  const categoriesOficiales = ['Todos', 'Platillos', 'Combos', 'Bebidas', 'Complementos', 'Postres'];
 
+  // Filtrado modificado para evaluar id_categoria
   const filtrados = categoriaSel === 'Todos' 
     ? platillos.filter(p => p.disponible)
-    : platillos.filter(p => p.categoria === categoriaSel && p.disponible);
+    : platillos.filter(p => p.id_categoria === categoriaSel && p.disponible);
 
   return (
     <div className="view-pane client-theme">
       <header className="restaurant-header">
-        <img src={logo} alt="La Chancla" className="main-logo" />
+        <img src={logo} alt="Antojitos La Chancla" className="main-logo" />
         <p className="slogan">"El Sabor que te pega!"</p>
         <div className="badge-client">MENÚ DIGITAL DE CLIENTES</div>
       </header>
 
+      {/* BARRA DE NAVEGACIÓN POR CHIPS */}
       <div className="category-bar">
-        {categoriasOficiales.map(cat => (
+        {categoriesOficiales.map(cat => (
           <button 
             key={cat} 
             className={categoriaSel === cat ? 'cat-act' : ''} 
@@ -30,6 +33,7 @@ export default function VistaCliente({ platillos }) {
         ))}
       </div>
 
+      {/* GRID DINÁMICO DE TARJETAS */}
       <div className="menu-grid">
         {filtrados.length === 0 ? (
           <p className="no-items">Próximamente agregaremos deliciosos platillos a esta sección...</p>
@@ -46,7 +50,7 @@ export default function VistaCliente({ platillos }) {
               
               <div className="dish-info">
                 <h3>{p.nombre}</h3>
-                <p className="desc">{p.descripcion}</p>
+                <p className="desc">{p.descripcion || 'Sin descripción disponible por el momento.'}</p>
                 <div className="card-footer">
                   <span className="price">${parseFloat(p.precio_venta).toFixed(2)} MXN</span>
                   <button className="btn-add-order">Añadir ➕</button>
