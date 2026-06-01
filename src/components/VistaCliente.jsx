@@ -1,16 +1,59 @@
-import React, { useState } from 'react';
-import logo from '../assets/logo.png'; // Ruta correcta saliendo a assets
+import React, { useState, useEffect } from 'react';
+import logo from '../assets/logo.png'; 
 
 export default function VistaCliente({ platillos }) {
   const [categoriaSel, setCategoriaSel] = useState('Todos');
+  const [datosClima, setDatosClima] = useState(null);
   
-  // Categorías oficiales basadas en el diseño de tu base de datos
+  // Categorías oficiales
   const categoriesOficiales = ['Todos', 'Platillos', 'Combos', 'Bebidas', 'Complementos', 'Postres'];
 
-  // Filtrado modificado para evaluar id_categoria
+  // Filtrado de platillos
   const filtrados = categoriaSel === 'Todos' 
     ? platillos.filter(p => p.disponible)
     : platillos.filter(p => p.id_categoria === categoriaSel && p.disponible);
+
+  // ==========================================
+  // SERVICIO EN LA NUBE: OPENWEATHERMAP
+  // ==========================================
+  useEffect(() => {
+    const cargarClima = async () => {
+      const ciudad = "Valladolid,MX";
+      const apiKey = "30f4d37802fd54860288c7d74793b453"; // Tu API Key real de OpenWeatherMap
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric&lang=es`;
+      
+      try {
+        const respuesta = await fetch(url);
+        if (!respuesta.ok) throw new Error("No se pudo obtener el clima");
+        
+        const datos = await respuesta.json();
+        const temperatura = Math.round(datos.main.temp);
+        const descripcion = datos.weather[0].description;
+        
+        let recomendacion = "";
+        
+        // Lógica de recomendación de negocio (Taquería/Antojitos)
+        if (temperatura > 30) {
+          recomendacion = "¡Día muy caluroso! ☀️ Acompaña tus antojitos con un agua de horchata bien fría o un refresco con hielo.";
+        } else if (temperatura < 22) {
+          recomendacion = "¡El clima está fresco! ☁️ Ideal para entrar en calor con unos tacos de cochinita recién salidos.";
+        } else {
+          recomendacion = "¡Clima perfecto en Valladolid! 🌮 Disfruta de nuestro menú al máximo hoy.";
+        }
+
+        setDatosClima({
+          texto: `${temperatura}°C, ${descripcion}`,
+          recomendacion: recomendacion,
+          icono: `https://openweathermap.org/img/wn/${datos.weather[0].icon}.png`
+        });
+
+      } catch (error) {
+        console.error("Error al cargar clima:", error);
+      }
+    };
+
+    cargarClima();
+  }, []);
 
   return (
     <div className="view-pane client-theme">
@@ -19,6 +62,17 @@ export default function VistaCliente({ platillos }) {
         <p className="slogan">"El Sabor que te pega!"</p>
         <div className="badge-client">MENÚ DIGITAL DE CLIENTES</div>
       </header>
+
+      {/* WIDGET DEL CLIMA (NUEVO SERVICIO EN LA NUBE) */}
+      {datosClima && (
+        <div className="widget-clima">
+          <div className="clima-header">
+            <img src={datosClima.icono} alt="Icono clima" className="clima-icono" />
+            <strong>Clima actual en Valladolid:</strong> <span>{datosClima.texto}</span>
+          </div>
+          <p className="clima-recomendacion"><em>{datosClima.recomendacion}</em></p>
+        </div>
+      )}
 
       {/* BARRA DE NAVEGACIÓN POR CHIPS */}
       <div className="category-bar">

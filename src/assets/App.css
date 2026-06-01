@@ -619,3 +619,44 @@ body {
   color: #333;
   text-align: left !important;
 }
+/* ==========================================
+   WIDGET DEL CLIMA (OPENWEATHERMAP)
+   ========================================== */
+.widget-clima {
+  margin: 0 auto 30px auto;
+  padding: 15px 25px;
+  border: 2px dashed #4fc3f7;
+  border-radius: 15px;
+  background-color: #e1f5fe;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  animation: fadeIn 0.5s ease-in;
+}
+
+.clima-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #0277bd;
+  font-size: 1.1rem;
+}
+
+.clima-icono {
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.2));
+}
+
+.clima-recomendacion {
+  margin-top: 10px;
+  color: #01579b;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
