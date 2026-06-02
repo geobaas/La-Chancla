@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { collection, onSnapshot } from 'firebase/firestore';
 import { db } from '../firebase';
+// Eliminados Line y LineChart para que Netlify compile sin problemas
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
-  PieChart, Pie, Cell, LineChart, Line, AreaChart, Area, ScatterChart, Scatter, ZAxis
+  PieChart, Pie, Cell, AreaChart, Area, ScatterChart, Scatter, ZAxis
 } from 'recharts';
 
 export default function VistaReportesBI() {
@@ -334,7 +335,7 @@ export default function VistaReportesBI() {
         </div>
       )}
 
-      {/* ESTILOS GLOBALES ANIMACIONES (Opcional, hace que el cambio de tab se vea suave) */}
+      {/* ESTILOS GLOBALES ANIMACIONES */}
       <style>{`
         @keyframes fadeIn {
           from { opacity: 0; transform: translateY(10px); }
