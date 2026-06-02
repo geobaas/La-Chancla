@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../firebase';
 import { collection, addDoc, updateDoc, deleteDoc, doc, onSnapshot } from 'firebase/firestore';
 // IMPORTAMOS EL NUEVO COMPONENTE MODULAR
-import packageJson from '../../package.json';
+
 import VistaReportesBI from './VistaReportesBI';
 
 export default function VistaGerencia({ platillos }) {

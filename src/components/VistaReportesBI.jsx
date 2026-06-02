@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { collection, onSnapshot } from 'firebase/firestore';
 import { db } from '../firebase';
-// Eliminados Line y LineChart para que Netlify compile sin problemas
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
   PieChart, Pie, Cell, AreaChart, Area, ScatterChart, Scatter, ZAxis
 } from 'recharts';
 
 export default function VistaReportesBI() {
-  // Estado para controlar qué pestaña se está viendo (del 1 al 4)
+  // 1. VARIABLE DE VERSIÓN INTERNA (Solución segura para Netlify)
+  const APP_VERSION = "1.0.0";
+
   const [pestañaActiva, setPestañaActiva] = useState(1);
 
   // ==========================================
@@ -126,8 +127,13 @@ export default function VistaReportesBI() {
   // ==========================================
   return (
     <div style={{ padding: '20px', maxWidth: '1400px', margin: '0 auto', background: '#f4f6f8', minHeight: '100vh' }}>
-      <h1 style={{ textAlign: 'center', color: '#1a237e', marginBottom: '20px' }}>
+      
+      {/* TÍTULO CON INDICADOR DE VERSIÓN DINÁMICO (Leyendo la variable de arriba) */}
+      <h1 style={{ textAlign: 'center', color: '#1a237e', marginBottom: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         📈 Inteligencia de Negocios Gerencial
+        <span style={{ fontSize: '0.9rem', color: '#fff', background: '#4caf50', padding: '4px 8px', borderRadius: '15px', marginLeft: '15px', fontWeight: 'bold', boxShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
+          v{APP_VERSION}
+        </span>
       </h1>
 
       {/* MENÚ DE NAVEGACIÓN (PESTAÑAS) */}
