@@ -660,3 +660,124 @@ body {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+/* ==========================================
+   INTERFAZ DEL CARRITO DE COMPRAS
+   ========================================== */
+
+/* Botón que flota en la esquina inferior derecha */
+.btn-flotante-carrito {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(255, 152, 0, 0.4);
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.2s;
+}
+
+.btn-flotante-carrito:hover {
+  transform: scale(1.05);
+  background-color: #f57c00;
+}
+
+/* Fondo oscuro transparente detrás de la ventana */
+.modal-carrito-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+/* Caja blanca de la ventana emergente */
+.modal-carrito-contenido {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  animation: slideUp 0.3s ease-out;
+}
+
+.lista-carrito {
+  overflow-y: auto;
+  margin: 20px 0;
+  padding-right: 10px;
+}
+
+.item-carrito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.item-carrito-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.1rem;
+}
+
+.btn-eliminar-item {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.carrito-total {
+  border-top: 2px dashed #ccc;
+  padding-top: 15px;
+  text-align: right;
+  color: #2e7d32;
+}
+
+.carrito-acciones {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn-cerrar-modal, .btn-confirmar-pedido {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-cerrar-modal {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.btn-confirmar-pedido {
+  background-color: #4caf50;
+  color: white;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
