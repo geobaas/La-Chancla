@@ -153,24 +153,65 @@ export default function VistaCliente({ platillos }) {
         </button>
       )}
 
-      {/* Modal Carrito Normal */}
+      {/* Modal Carrito Mejorado */}
       {mostrarCarrito && (
-        <div className="modal-carrito-overlay">
-          <div className="modal-carrito-contenido">
-            <h2>🛒 Tu Pedido</h2>
-            <div className="lista-carrito">
-              {carrito.map((item, index) => (
-                <div key={index} className="item-carrito">
-                  <span>{item.cantidad}x {item.nombre}</span>
-                  <button onClick={() => eliminarDelCarrito(item.id)}>❌</button>
-                </div>
-              ))}
+        <div className="modal-carrito-overlay" style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.6)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 2000 }}>
+          <div className="modal-carrito-contenido" style={{ background: '#fff', padding: '30px', borderRadius: '15px', width: '90%', maxWidth: '450px', boxShadow: '0 10px 25px rgba(0,0,0,0.2)' }}>
+            <h2 style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#3e2723', borderBottom: '2px solid #eee', paddingBottom: '10px', marginTop: 0 }}>
+              🛒 Tu Pedido
+            </h2>
+            
+            <div className="lista-carrito" style={{ maxHeight: '300px', overflowY: 'auto', margin: '20px 0' }}>
+              {carrito.length === 0 ? (
+                <p style={{ textAlign: 'center', color: '#888' }}>Tu carrito está vacío.</p>
+              ) : (
+                carrito.map((item, index) => (
+                  <div key={index} className="item-carrito" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '12px 0', borderBottom: '1px solid #f5f5f5' }}>
+                    <span style={{ fontSize: '1.1rem', color: '#444' }}><strong>{item.cantidad}x</strong> {item.nombre}</span>
+                    <button onClick={() => eliminarDelCarrito(item.id)} style={{ background: '#ffebee', color: '#c62828', border: 'none', borderRadius: '6px', width: '30px', height: '30px', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', fontWeight: 'bold', transition: '0.2s' }}>
+                      ✕
+                    </button>
+                  </div>
+                ))
+              )}
             </div>
-            <h3>Total: ${calcularTotalCarrito().toFixed(2)} MXN</h3>
-            <div className="carrito-acciones">
-              <button onClick={() => setMostrarCarrito(false)}>Seguir Comprando</button>
-              <button onClick={iniciarProcesoPago} style={{background: '#4caf50', color: 'white'}}>Pagar con Tarjeta 💳</button>
+            
+            <h3 style={{ textAlign: 'right', color: '#2e7d32', fontSize: '1.4rem' }}>Total: ${calcularTotalCarrito().toFixed(2)} MXN</h3>
+            
+            <div className="carrito-acciones" style={{ display: 'flex', gap: '15px', marginTop: '25px' }}>
+              <button onClick={() => setMostrarCarrito(false)} style={{ flex: 1, padding: '12px', background: '#f5f5f5', color: '#333', border: '1px solid #ddd', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold', transition: '0.2s' }}>
+                Seguir Comprando
+              </button>
+              {carrito.length > 0 && (
+                <button onClick={iniciarProcesoPago} style={{ flex: 1, padding: '12px', background: '#4caf50', color: 'white', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold', boxShadow: '0 4px 6px rgba(76, 175, 80, 0.3)', transition: '0.2s' }}>
+                  Pagar con Tarjeta 💳
+                </button>
+              )}
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* NUEVO: Modal de Pasarela de Pago (Mantiene tu diseño anterior) */}
+      {mostrarModalPago && (
+        <div className="modal-carrito-overlay" style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.7)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 3000 }}>
+          <div className="modal-carrito-contenido" style={{ background: '#fff', padding: '30px', borderRadius: '15px', width: '90%', maxWidth: '400px', boxShadow: '0 10px 25px rgba(0,0,0,0.3)' }}>
+            <h2 style={{ color: '#1565c0', textAlign: 'center', marginTop: 0 }}>💳 Pago Seguro</h2>
+            <p style={{ textAlign: 'center', color: '#666' }}>Monto a cobrar: <strong>${calcularTotalCarrito().toFixed(2)} MXN</strong></p>
+            
+            <form onSubmit={procesarPagoSeguro} style={{ display: 'flex', flexDirection: 'column', gap: '15px', marginTop: '20px' }}>
+              <input type="text" placeholder="Número de Tarjeta (16 dígitos)" required maxLength="16" value={datosTarjeta.numero} onChange={e => setDatosTarjeta({...datosTarjeta, numero: e.target.value})} style={{ padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '1rem' }} />
+              <input type="text" placeholder="Nombre en la Tarjeta" required value={datosTarjeta.nombre} onChange={e => setDatosTarjeta({...datosTarjeta, nombre: e.target.value})} style={{ padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '1rem' }} />
+              <div style={{ display: 'flex', gap: '10px' }}>
+                <input type="text" placeholder="MM/AA" required maxLength="5" value={datosTarjeta.vencimiento} onChange={e => setDatosTarjeta({...datosTarjeta, vencimiento: e.target.value})} style={{ padding: '12px', borderRadius: '8px', border: '1px solid #ccc', flex: 1, fontSize: '1rem' }} />
+                <input type="password" placeholder="CVV" required maxLength="4" value={datosTarjeta.cvv} onChange={e => setDatosTarjeta({...datosTarjeta, cvv: e.target.value})} style={{ padding: '12px', borderRadius: '8px', border: '1px solid #ccc', flex: 1, fontSize: '1rem' }} />
+              </div>
+              
+              <div className="carrito-acciones" style={{ display: 'flex', gap: '15px', marginTop: '25px' }}>
+                <button type="button" onClick={() => {setMostrarModalPago(false); setMostrarCarrito(true);}} style={{ flex: 1, padding: '12px', background: '#e0e0e0', color: '#333', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold' }}>Cancelar</button>
+                <button type="submit" style={{ flex: 1, padding: '12px', background: '#1565c0', color: 'white', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold', boxShadow: '0 4px 6px rgba(21, 101, 192, 0.3)' }}>Procesar Pago</button>
+              </div>
+            </form>
           </div>
         </div>
       )}
