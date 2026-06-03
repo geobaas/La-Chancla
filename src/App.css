@@ -67,7 +67,8 @@ body {
   border-bottom: 6px solid var(--color-madera);
 }
   .main-logo {
-    max-width: 380px; 
+    max-width: 380px;
+    width: 380px 
     height: auto;    
 }
 }
