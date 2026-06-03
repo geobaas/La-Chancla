@@ -97,8 +97,8 @@ Menú digital y sistema gerencial para La Chancla.
 | :--- | :--- |
 | **Baas Chale Geovanny Francisco** | Líder de Proyecto / Git Master |
 | **Poot Padilla Pedro Hilario** | Desarrollador Frontend / UI |
-| **Dzul Uk Karla Janet** | QA / Documentación Técnica |
-| **Sabido Ku Jose Samian** | Desarrollador Backend / Base de Datos |
+| **Dzul Uc Karla Janet** | QA / Documentación Técnica |
+| **Sabido Ku Jose Damian** | Desarrollador Backend / Base de Datos |
 
 ---
 
