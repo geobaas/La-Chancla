@@ -76,7 +76,7 @@ export default function VistaCliente({ platillos }) {
 
     // Si está logueado, verificamos si el platillo ya está en el carrito
     const itemExistente = carrito.find(item => item.id === platillo.id);
-    
+  
     if (itemExistente) {
       // Si ya existe, le sumamos 1 a la cantidad
       setCarrito(carrito.map(item => 
