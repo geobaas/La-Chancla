@@ -166,3 +166,10 @@ body {
 .profit-text { color: #52B788; font-weight: bold; }
 .btn-edit { background: #F4A261; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; margin-right: 5px; }
 .btn-delete { background: #E76F51; border: none; padding: 5px 10px; border-radius: 3px; color: white; cursor: pointer; }
+/* Ajustar el tamaño del logotipo de La Chancla */
+img[src*="logo"], .logo, img[alt*="La Chancla"] {
+    width: 380px !important; /* Lo hace más grande */
+    height: auto !important;  /* Evita que se deforme */
+    display: block;
+    margin: 0 auto;          /* Lo mantiene centrado */
+}
