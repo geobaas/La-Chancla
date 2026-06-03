@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebase';
 import { collection, addDoc, updateDoc, deleteDoc, doc, onSnapshot } from 'firebase/firestore';
-// IMPORTAMOS EL NUEVO COMPONENTE MODULAR
 
+// IMPORTAMOS LOS COMPONENTES MODULARES
 import VistaReportesBI from './VistaReportesBI';
+import VistaPuntoVenta from './VistaPuntoVenta';
 
 export default function VistaGerencia({ platillos }) {
+  const APP_VERSION = "1.0.0";
   const [vistaActual, setVistaActual] = useState('inicio'); 
   const [categorias, setCategorias] = useState([]);
 
@@ -73,8 +75,15 @@ export default function VistaGerencia({ platillos }) {
 
   return (
     <div className="view-pane gerencia-theme">
-      <div className="management-header">
-        <h2>PANEL GERENCIAL</h2>
+      
+      {/* HEADER CORREGIDO SIN DUPLICAR EL USUARIO */}
+      <div className="management-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+          <h2 style={{ margin: 0 }}>🌮 La Chancla</h2>
+          <span style={{ fontSize: '0.85rem', color: '#fff', background: '#4caf50', padding: '4px 10px', borderRadius: '20px', fontWeight: 'bold' }}>
+            v{APP_VERSION}
+          </span>
+        </div>
         {vistaActual !== 'inicio' && (
           <button className="btn-back" onClick={() => { setVistaActual('inicio'); setEditId(null); }}>
             ⬅️ Volver al Menú
@@ -88,12 +97,22 @@ export default function VistaGerencia({ platillos }) {
           <div className="dashboard-inicio">
             <h1 className="greeting-text">Hola, ¿qué deseas hacer hoy? 👋</h1>
             <div className="dashboard-grid">
-              <button className="dash-action-btn" onClick={() => setVistaActual('agregarPlatillo')}><span className="icon">🌮</span><h3>Agregar Platillo</h3><p>Registra un nuevo producto para la venta</p></button>
-              <button className="dash-action-btn" onClick={() => setVistaActual('crearCategoria')}><span className="icon">📁</span><h3>Crear Categoría</h3><p>Añade secciones (Ej. Bebidas, Combos)</p></button>
-              <button className="dash-action-btn" onClick={() => setVistaActual('verMenu')}><span className="icon">📋</span><h3>Gestionar Menú</h3><p>Edita inventario o elimina platillos</p></button>
-              <button className="dash-action-btn" onClick={() => setVistaActual('agregarProveedor')}><span className="icon">🚚</span><h3>Agregar Proveedor</h3><p>Gestiona los proveedores de insumos</p></button>
-              <button className="dash-action-btn" onClick={() => setVistaActual('ventas')}><span className="icon">🧾</span><h3>Ventas</h3><p>Historial de transacciones y tickets</p></button>
-              <button className="dash-action-btn" onClick={() => setVistaActual('reporteBI')}><span className="icon">📊</span><h3>Reportes BI</h3><p>Inteligencia de negocios y métricas</p></button>
+              
+              {/* BOTÓN NUEVO: PUNTO DE VENTA */}
+              <button className="dash-action-btn" onClick={() => setVistaActual('puntoVenta')} style={{ border: '2px solid #4caf50' }}>
+                <span className="icon">🛒</span><h3>Punto de Venta</h3><p>Caja registradora y cobro</p>
+              </button>
+
+              <button className="dash-action-btn" onClick={() => setVistaActual('agregarPlatillo')}><span className="icon">🌮</span><h3>Agregar Platillo</h3><p>Registra un nuevo producto</p></button>
+              <button className="dash-action-btn" onClick={() => setVistaActual('crearCategoria')}><span className="icon">📁</span><h3>Crear Categoría</h3><p>Añade secciones (Ej. Bebidas)</p></button>
+              <button className="dash-action-btn" onClick={() => setVistaActual('verMenu')}><span className="icon">📋</span><h3>Gestionar Menú</h3><p>Edita o elimina platillos</p></button>
+              <button className="dash-action-btn" onClick={() => setVistaActual('agregarProveedor')}><span className="icon">🚚</span><h3>Agregar Proveedor</h3><p>Proveedores de insumos</p></button>
+              <button className="dash-action-btn" onClick={() => setVistaActual('ventas')}><span className="icon">🧾</span><h3>Historial</h3><p>Historial de transacciones</p></button>
+              
+              {/* BOTÓN BI RESALTADO */}
+              <button className="dash-action-btn" onClick={() => setVistaActual('reporteBI')} style={{ border: '2px solid #0277bd' }}>
+                <span className="icon">📊</span><h3>Reportes BI</h3><p>Inteligencia de negocios</p>
+              </button>
             </div>
           </div>
         )}
@@ -198,8 +217,9 @@ export default function VistaGerencia({ platillos }) {
           </div>
         )}
 
-        {/* AQUI MANDAMOS LLAMAR AL NUEVO COMPONENTE EXTERNO */}
+        {/* MODULOS EXTERNOS */}
         {vistaActual === 'reporteBI' && <VistaReportesBI />}
+        {vistaActual === 'puntoVenta' && <VistaPuntoVenta platillos={platillos} />}
 
       </div>
     </div>
