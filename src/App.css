@@ -66,8 +66,10 @@ body {
   margin-bottom: 25px;
   border-bottom: 6px solid var(--color-madera);
 }
-.main-logo {
-  max-width: 220px;
+  .main-logo {
+    max-width: 380px; 
+    height: auto;    
+}
 }
 .slogan {
   font-style: italic;
